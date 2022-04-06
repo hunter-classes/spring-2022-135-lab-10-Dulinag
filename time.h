@@ -1,0 +1,12 @@
+#pragma once
+
+c
+lass Time {
+public:
+    int h;
+    int m;
+};
+
+
+int minutesSinceMidnight(Time time);
+int minutesUntil(Time earlier, Time later);
